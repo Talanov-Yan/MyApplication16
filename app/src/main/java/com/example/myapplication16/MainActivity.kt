@@ -8,8 +8,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         var user = User("Sergey", "00000", 22)
+        var user2 = User("Andrey", "00000", 25)
 
         user.addAge(10)
+        user2.addAge(2)
         user.printUserInfo()
     }
 }
